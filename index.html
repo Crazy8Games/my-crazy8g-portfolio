@@ -86,14 +86,89 @@
                     <img src="https://th.bing.com/th/id/OIG1.igWCnBEXUmeNo3itlnR1?pid=ImgGn" alt="Project 3" class="w-150 h-40 object-cover object-center">
                     <div class="p-6">
                         <h3 class="text-xl font-bold text-gray-800 mb-2">Pokemon-EM-RB-Css</h3>
-                        <p class="text-gray-700">Pokemon-EM-RB-Css is a pokemon emerald/ruby styling framework. To simply add the main css just copy the code below then add it to any of your css files. Then copy the link tag in any html you choose</p>
-                        <a class="mt-4 inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded" href="https://crazy8games.github.io/CodeTogether" hidden>(LINK)</a>
+                        <p class="text-gray-700">Pokemon-EM-RB-Css is a pokemon emerald/ruby styling framework. To simply add the main css just copy the code below then add it to any of your css files. Then copy the link tag in any html you choose.</p>
+                      <p>Poke-EM-RB-Css Code</p>
+                        <pre><code>
+                            /* Variables */
+:root {
+  --primary-color: #78c850; /* Emerald's primary color */
+  --secondary-color: #f08030; /* Ruby's primary color */
+  --text-color: #000; /* Black text color */
+  --background-color: #fff; /* White background color */
+}
+
+/* Base Styles */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Pokemon Emerald", "Pokemon Ruby", sans-serif;
+  font-size: 16px;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+/* Header */
+.header {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  padding: 10px;
+  text-align: center;
+}
+
+/* Buttons */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: darken(var(--secondary-color), 10%);
+}
+
+/* Cards */
+.card {
+  background-color: var(--background-color);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.card-highlight {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+                        </code></pre>
+                        <p>HTML link code </p>
+                        <pre><code><link rel="stylesheet" href="pokemon-em-rb-css"></code></pre>
+                        <p>Check out the link below to see the demo website</p>
+                        <a class="mt-4 inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded" href="https://crazy8games.github.io/Pokemon-EM-RB-Css" hidden>(LINK)</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
+  <section id="projects" class="py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-bold text-gray-800 mb-6">🛠️MORE SOON🛠️</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+            </div>
+        </div>
+    </section>
     <!-- Contact Section -->
     <section id="contact" class="bg-gray-200 py-12">
         <div class="container mx-auto px-4">
